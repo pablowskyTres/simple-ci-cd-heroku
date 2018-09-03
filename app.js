@@ -13,6 +13,10 @@ app.get('*', function (req, res) {
     res.send('Servicio no implementado :(');
 });
 
+app.get('/despedida/:name', function (req, res) {
+    res.send(`Bye ${req.params.name}!`);
+});
+
 const port = process.env.PORT || 5000;
 
 app.listen(port, function () {
