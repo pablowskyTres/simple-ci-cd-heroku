@@ -1,0 +1,23 @@
+{
+  "name": "simple-ci-cd-heroku",
+  "version": "1.0.0",
+  "description": "Example of Heroku CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablowskyTres/simple-ci-cd-heroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablowskyTres/simple-ci-cd-heroku/issues"
+  },
+  "homepage": "https://github.com/pablowskyTres/simple-ci-cd-heroku#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
