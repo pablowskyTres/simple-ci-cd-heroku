@@ -5,16 +5,16 @@ app.get('/', function (req, res) {
     res.send('Hello World!');
 });
 
-app.get('saludo/:name', function (req, res) {
+app.get('/saludo/:name', function (req, res) {
     res.send(`Hello ${req.params.name}!`);
-});
-
-app.get('*', function (req, res) {
-    res.send('Servicio no implementado :(');
 });
 
 app.get('/despedida/:name', function (req, res) {
     res.send(`Bye ${req.params.name}!`);
+});
+
+app.get('*', function (req, res) {
+    res.send('Servicio no implementado :(');
 });
 
 const port = process.env.PORT || 5000;
